@@ -3,7 +3,7 @@
 > **Notebook rendering issues?**
 > **[Click here to view the Notebook with full results and images on NBViewer](https://nbviewer.org/github/luciadg/celegans-feature-association/blob/main/celegans_feature_association.ipynb)**
 
-A specialized biomedical imaging and computer vision pipeline designed to segment *Caenorhabditis elegans* individuals and perform precise **spatial association** of their internal biological structures (pharynxes and `clec-60` gene expression foci) using multichannel 16-bit TIFF images.
+Academic project developed for the Master's in Bioinformatics (UDC). A specialized biomedical imaging and computer vision pipeline designed to segment *Caenorhabditis elegans* individuals and perform precise **spatial association** of their internal biological structures (pharynxes and `clec-60` gene expression foci) using multichannel 16-bit TIFF images.
 
 ## 1. The Spatial Association Challenge
 In multi-organism images, simply detecting features is insufficient; the core challenge is correctly attributing each detected gene or pharynx to the exact bodily mask of the corresponding nematode.
