@@ -1,7 +1,4 @@
 # Automated C. elegans Segmentation and Feature Association: Mapping Genes and Pharynxes
-> [!IMPORTANT]
-> **Notebook rendering issues?**
-> **[Click here to view the Notebook with full results and images on NBViewer](https://nbviewer.org/github/luciadg/celegans-feature-association/blob/main/celegans_feature_association.ipynb)**
 
 Academic project developed for the Master's in Bioinformatics (UDC). A specialized biomedical imaging and computer vision pipeline designed to segment *Caenorhabditis elegans* individuals and perform precise **spatial association** of their internal biological structures (pharynxes and `clec-60` gene expression foci) using multichannel 16-bit TIFF images.
 
