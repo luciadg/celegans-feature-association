@@ -42,6 +42,6 @@ The algorithm generates a detailed 1:N mapping with zero manual intervention, id
 - The dilation operation in the w3 channel presents a biological trade-off: while it successfully fuses individual lobes, in high-density areas it may cause the accidental fusion of pharynxes from adjacent nematodes. This shifts the resulting centroid outside the boundaries of either bodily mask, preventing proper association.
 
 ## 5. Environment Requirements
-Install the required dependencies to replicate the environment and ensure proper reading of 16-bit `.tif` files:
+Developed with Python 3.11. Install the required dependencies to replicate the environment and ensure proper reading of 16-bit `.tif` files:
 ```bash
 pip install -r requirements.txt
