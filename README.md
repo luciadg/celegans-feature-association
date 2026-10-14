@@ -14,6 +14,7 @@ This project solves this structural problem through:
 The images utilized in this pipeline are part of the **Broad Bioimage Benchmark Collection**. These high-resolution files are not hosted in this repository due to their 16-bit depth and substantial size.
 
 - **Source:** [Broad Bioimage Benchmark Collection (BBBC)](https://bbbc.broadinstitute.org/BBBC012)
+- **Download:** [BBBC012_v1_images.zip](https://data.broadinstitute.org/bbbc/BBBC012/BBBC012_v1_images.zip) (117 MB)
 - **Quantity:** 8 multichannel images.
 - **Dimensions:** 696 x 520 pixels.
 - **Bit Depth:** 16-bit (TIFF format).
