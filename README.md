@@ -23,8 +23,7 @@ The images utilized in this pipeline are part of the **Broad Bioimage Benchmark 
     - **w1:** Brightfield (Anatomical reference).
     - **w2:** GFP (`clec-60` gene expression).
     - **w3:** mCherry (Pharynx localization).
-- **Citation:** Image set BBBC012v1 was used, provided by Javier Irazoqui and available from the Broad Bioimage Benchmark Collection [Ljosa et al., *Nature Methods*, 2012].
-    - Ljosa V, Sokolnicki KL, Carpenter AE (2012). Annotated high-throughput microscopy image sets for validation. *Nature Methods* 9(7):637. [doi:10.1038/nmeth.2083](https://doi.org/10.1038/nmeth.2083)
+- **Citation:** Image set BBBC012v1 was used, provided by Javier Irazoqui and available from the Broad Bioimage Benchmark Collection [[Ljosa et al., *Nature Methods*, 2012](https://doi.org/10.1038/nmeth.2083)].
 
 ## 3. Processing Methodology
 The workflow applies specific computer vision strategies tailored to each channel's characteristics:
