@@ -15,7 +15,7 @@ The images utilized in this pipeline are part of the **Broad Bioimage Benchmark 
 
 - **Source:** [Broad Bioimage Benchmark Collection (BBBC)](https://bbbc.broadinstitute.org/BBBC012)
 - **Download:** [BBBC012_v1_images.zip](https://data.broadinstitute.org/bbbc/BBBC012/BBBC012_v1_images.zip) (117 MB)
-- **Quantity:** 8 multichannel images, a subset of the 120 in BBBC012: wells M08, M11, M12, M16, M19, M24, N04 and N05 of the `pmk1_plate2` folder.
+- **Quantity:** 8 multichannel images, a subset of BBBC012: wells M08, M11, M12, M16, M19, M24, N04 and N05 of the `pmk1_plate2` folder.
 - **Dimensions:** 696 x 520 pixels.
 - **Bit Depth:** 16-bit (TIFF format).
 - **Dynamic Range:** varies by channel and by image (maximum values: 4095 in brightfield, 1716 in GFP and 1052 in mCherry), so each channel of each image is normalized independently.
@@ -23,7 +23,8 @@ The images utilized in this pipeline are part of the **Broad Bioimage Benchmark 
     - **w1:** Brightfield (Anatomical reference).
     - **w2:** GFP (`clec-60` gene expression).
     - **w3:** mCherry (Pharynx localization).
-- **Citation:** Ljosa V, Sokolnicki KL, Carpenter AE (2012). Annotated high-throughput microscopy image sets for validation. *Nature Methods* 9(7):637.
+- **Citation:** Image set BBBC012v1 was used, provided by Javier Irazoqui and available from the Broad Bioimage Benchmark Collection [Ljosa et al., *Nature Methods*, 2012].
+    - Ljosa V, Sokolnicki KL, Carpenter AE (2012). Annotated high-throughput microscopy image sets for validation. *Nature Methods* 9(7):637. [doi:10.1038/nmeth.2083](https://doi.org/10.1038/nmeth.2083)
 
 ## 3. Processing Methodology
 The workflow applies specific computer vision strategies tailored to each channel's characteristics:
