@@ -36,7 +36,7 @@ The workflow applies specific computer vision strategies tailored to each channe
 
 ![Segmentation steps of the brightfield channel](figures/segmentation_steps.png)
 
-*Segmentation of the brightfield channel (w1) for one of the 8 images (well M16).*
+*Segmentation of the brightfield channel (w1) for one of the 8 images.*
 
 ## 4. Results and Model Limitations
 Once the parameters are set, the pipeline runs without manual intervention and generates a detailed 1:N mapping per individual, identifying **0 to 6 GFP expression foci per individual** (with the majority between 0 and 3).
