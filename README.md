@@ -34,8 +34,16 @@ The workflow applies specific computer vision strategies tailored to each channe
 
 - **Pharynx Localization (w3 - mCherry):** A global threshold (Threshold = 40) is combined with a targeted morphological dilation (4x4 circular kernel, 2 iterations). This is designed to fuse the two pharyngeal lobes into a single quantifiable mass.
 
+![Segmentation steps of the brightfield channel](figures/segmentation_steps.png)
+
+*Segmentation of the brightfield channel (w1) for one of the 8 images (well M16).*
+
 ## 4. Results and Model Limitations
 Once the parameters are set, the pipeline runs without manual intervention and generates a detailed 1:N mapping per individual, identifying **0 to 6 GFP expression foci per individual** (with the majority between 0 and 3).
+
+![Spatial association of pharynxes and GFP foci to each individual](figures/spatial_association.png)
+
+*Final association for the same image: each of the 13 detected individuals is assigned its pharynx (red) and its GFP expression foci (green).*
 
 **Deviation Analysis:**
 - Association accuracy is highly dependent on successful individual separation in the w1 channel. Nematodes in extreme proximity are occasionally segmented as a single continuous object.
